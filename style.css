@@ -1,0 +1,31 @@
+
+
+.parent{
+    background-color: black;
+    width: 100%;
+    height: 1000px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+
+.child{
+    background-color: aqua;
+    margin: 20px;
+}
+
+.child img{
+    width: 100%;
+    height: 100%;
+}
+
+
+.merge{
+    grid-row-start: 1;
+    grid-row-end: 4;
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+
+.merge h1{
+    text-align: center;
+}
